@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
-using RegressionRunCSVReports.Logic;
+using TriageReports.Logic;
 
-namespace RegressionRunCSVReports
+namespace TriageReports
 {
     class Program
     {
         static async Task Main(string[] args)
         {
-            await ReportCompiler.Run();
+            await TriageReport.Run();
         }
     }
 }
